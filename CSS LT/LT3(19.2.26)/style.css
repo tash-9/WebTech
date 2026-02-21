@@ -1,0 +1,120 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+
+.box {
+  width: 150px;
+  height: 80px;
+  margin-bottom: 15px;
+  color: white;
+  text-align: center;
+  line-height: 80px;
+}
+
+.box1 {
+  padding: 10px;
+  border: 3px solid black;
+  margin: 10px;
+  background-color: #3498db;
+}
+
+.box2 {
+  padding: 20px;
+  border: 6px dashed black;
+  margin: 20px;
+  background-color: #2ecc71;
+}
+
+.box3 {
+  padding: 30px;
+  border: 10px solid black;
+  margin: 30px;
+  background-color: #e74c3c;
+}
+
+/* =========================
+   Part B: Box Sizing
+   ========================= */
+
+.default-box {
+  width: 200px;
+  padding: 20px;
+  border: 5px solid black;
+  background-color: #f1c40f;
+  margin-bottom: 15px;
+}
+
+.border-box {
+  width: 200px;
+  padding: 20px;
+  border: 5px solid black;
+  box-sizing: border-box;
+  background-color: #9b59b6;
+  color: white;
+}
+
+/* =========================
+   Part C: Display Properties
+   ========================= */
+
+.block {
+  display: block;
+  background: #1abc9c;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.inline {
+  display: inline;
+  background: #f39c12;
+  padding: 5px;
+}
+
+.inline-block {
+  display: inline-block;
+  width: 200px;
+  background: #95a5a6;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.none {
+  display: none;
+  background: red;
+}
+
+/* =========================
+   Part D: Visibility vs Display
+   ========================= */
+
+.visible-box {
+  background: #2c3e50;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.hidden-box {
+  visibility: hidden;
+  background: #8e44ad;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.visible-box2 {
+  background: #2c3e50;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.none-box {
+  display: none;
+  background: #c0392b;
+  color: white;
+  padding: 10px;
+  margin-top: 10px;
+}
