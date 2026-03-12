@@ -1,0 +1,102 @@
+
+/* Absolute unit - px */
+h1 {
+    font-size: 32px;
+}
+
+
+table {
+    margin-bottom: 1cm;
+}
+
+
+body {
+    background-color: rgb(189, 235, 253);
+    font-size: 1rem;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+
+main {
+    width: 80%;
+    margin: 5% auto;
+    padding: 2em;
+}
+
+
+p {
+    font-size: 1.2em;
+}
+
+
+textarea {
+    height: 15vh;
+    width: 100%;
+}
+
+
+/*  Group Selector */
+h1, h2 {
+    color: navy;
+    text-align: center;
+}
+
+/* Descendant Selector */
+section p {
+    color: lightslategray;
+}
+
+/* 3. Attribute Selector */
+input[type="text"] {
+    border: 1px solid green;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+input[  type="submit"] {
+    border: 2px solid blue;
+    padding: 5px;
+}
+
+/* Hover */
+a:hover {
+    color: red;
+}
+
+/* Focus */
+input:focus,
+textarea:focus {
+    background-color: lightyellow;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Active */
+input[type="submit"]:active {
+    background-color: rgb(40, 225, 40);
+    color: white;
+}
+
+
+/* More Modification */
+footer {
+    text-align: center;
+}
+
+header nav {
+    text-align: center;
+    margin: 10px 0;     
+}
+
+header nav a {
+    margin: 0 15px;    
+    text-decoration: none;
+    color: rgb(14, 14, 99); 
+    font-weight: bold;
+}
+
+header nav a:hover {
+    color: darkred;
+}

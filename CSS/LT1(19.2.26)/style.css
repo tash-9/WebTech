@@ -1,0 +1,26 @@
+/* Universal Selector */
+* {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+
+/* ID Selector */
+#mainTitle {
+    text-align: center;
+    font-size: 32px;
+}
+
+/* Element Selector */
+form {
+    background-color: #99daeb;
+    padding: 20px;
+}
+
+/* Element Selector */
+fieldset {
+    margin-bottom: 15px;
+}
+
+/* Element Selector */
+input, select {
+    font-size: 14px;
+}
