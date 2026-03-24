@@ -1,13 +1,13 @@
 body{
 font-family: 'Times New Roman', Times, serif, sans-serif;
 margin:0;
-background:whitesmoke;
+background:rgb(210, 167, 167);
 color:black;
 }
 
 header{
-background:#222;
-color:white;
+background:#480f0f;
+color:rgb(252, 90, 90);
 padding:15px;
 }
 
@@ -24,7 +24,7 @@ gap:20px;
 }
 
 nav a{
-color:white;
+color:rgb(233, 231, 231);
 text-decoration:none;
 }
 
@@ -57,7 +57,7 @@ gap:20px;
 }
 
 .project-card{
-border:1px solid green;
+border:1px solid red;
 padding:20px;
 border-radius:8px;
 transition:transform 0.3s;
@@ -82,6 +82,18 @@ max-width:400px;
   text-align: center;
 }
 
+#contact h2 {
+  text-align: center;
+}
+
+#contact form {
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgb(246, 222, 222);
+  border-radius: 10px;
+}
 
 footer {
   text-align: center;
