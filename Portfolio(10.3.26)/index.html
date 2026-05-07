@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+  <title>My Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+  <!-- Navigation Bar -->
+  <nav>
+    <h1>Tasfia Islam Raisha</h1>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main>
+  <!-- Home Section-->
+
+<section id="home">
+  <img src="image/IMG-20221009-WA0002.jpg" alt="Profile Picture" class="profile-pic">
+  <div>
+    <h2>Hello, I'm Tasfia Islam Raisha</h2>
+    <p>Computer Science and Engineering Student</p>
+    <p>I am learning to build web applications using HTML, CSS, and JavaScript.</p>
+  </div>
+</section>
+
+<!-- Projects Section with cards & interactive elements -->
+<section id="projects">
+  <h2 style="color:rgb(128, 9, 0) ;">My Projects</h2>
+
+  <div id="project-container">
+    <div class="project-card">
+      <h3>Project 1: E-Commerce</h3>
+      <p>A panda-mart e-commerce website built using HTML and CSS</p>
+      <a href="https://tash-9.github.io/goods-panda-resources/" target="_blank">View Project</a>
+    </div>
+    <div class="project-card">
+      <h3>Project 2: TechWave Podcast Page</h3>
+      <p>An interactive podcast page built using HTML and CSS.</p>
+      <a href="https://tash-9.github.io/TechWave/" target="_blank">View Project</a>
+    </div>
+    <div class="project-card">
+      <h3>Project 3: Git Hub Issue Tracker</h3>
+      <p>An interactive GitHub issue tracking system built using HTML, CSS, and JavaScript.</p>
+      <a href="https://tash-9.github.io/GitHub-Issue-Tracker/" target="_blank">View Project</a>
+    </div>
+    <div class="project-card">
+      <h3>Project 4: Tailwind CSS Mini Project</h3>
+      <p>A simple mini project using HTML and tailwind CSS.</p>
+      <a href="https://tash-9.github.io/tailwind_mini_project/" target="_blank">View Project</a>
+    </div>
+  </div>
+
+</section>
+<!-- Contact Section as form-->
+<section id="contact">
+   <h2 id="mainTitle" style="color: rgb(128, 9, 0) ;">Contact Me</h2>
+    <form action="#" method="post">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your full name (required)" required maxlength="100">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your email address" required>
+      <label for="phone">Phone:</label>
+      <input type="tel" id="phone" name="phone" placeholder="01XXXXXXXXX" pattern="[0-9]{11}" maxlength="11">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Write your message here!" required maxlength="500"></textarea>
+      <input type="submit" value="Send Message">
+    </form>
+ </section>
+
+</main>
+
+<footer>
+<p> Thanks for visiting my portfolio!</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

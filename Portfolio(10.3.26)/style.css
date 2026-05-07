@@ -1,0 +1,100 @@
+body{
+font-family: 'Times New Roman', Times, serif, sans-serif;
+margin:0;
+background:rgb(210, 167, 167);
+color:black;
+}
+
+header{
+background:#480f0f;
+color:rgb(252, 90, 90);
+padding:15px;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+nav ul{
+list-style:none;
+display:flex;
+gap:20px;
+}
+
+nav a{
+color:rgb(233, 231, 231);
+text-decoration:none;
+}
+
+section{
+padding:60px 20px;
+}
+
+#home {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  width: 150px; 
+  height: 150px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+#projects{
+text-align:center;
+}
+
+#project-container{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.project-card{
+border:1px solid red;
+padding:20px;
+border-radius:8px;
+transition:transform 0.3s;
+}
+
+.project-card:hover{
+transform:scale(1.05);
+}
+
+button{
+padding:10px 20px;
+cursor:pointer;
+}
+
+form{
+display:flex;flex-direction:column;
+gap:15px;
+max-width:400px;
+}
+
+#contact {
+  text-align: center;
+}
+
+#contact h2 {
+  text-align: center;
+}
+
+#contact form {
+  text-align: left;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background: rgb(246, 222, 222);
+  border-radius: 10px;
+}
+
+footer {
+  text-align: center;
+}
